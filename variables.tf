@@ -1,3 +1,4 @@
+#Variables for ids and default values
 variable "subscription_id" {
     type    = string
     default = "40d1d403-e9ac-4afe-97ee-caad6e58f8fc"
