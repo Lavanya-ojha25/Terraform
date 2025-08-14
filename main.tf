@@ -1,3 +1,4 @@
+#Module called for Network
 module "NetworkModule" {
   source          = "./NetworkModule"
   location        = 
@@ -7,7 +8,7 @@ module "NetworkModule" {
   address_prefix  = var.address_prefix
   Environment     = var.Environment
 }
-
+#Module called for VM creation
 module "VmModule" {
   source                     = "./VmModule"
   subnet_id                  = module.NetworkModule.subnet_id
