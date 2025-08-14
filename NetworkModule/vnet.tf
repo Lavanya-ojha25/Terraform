@@ -1,3 +1,4 @@
+#Creation of Resource Group, Virtual Network and Subnet
 resource "azurerm_resource_group" "rg" {
     count    = 2
     name     = "${var.azurerm_resource_group}${count.index}"
