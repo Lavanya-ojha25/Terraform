@@ -1,3 +1,4 @@
+#Declaration of Variable types
 variable "azurerm_resource_group" {
     type    = string  
     default = "rg"
