@@ -1,3 +1,4 @@
+# Attaching NIC on top of VM
 resource "azurerm_network_interface" "nic1" {
   count               = 2
   name                = "win-nic${count.index}"
