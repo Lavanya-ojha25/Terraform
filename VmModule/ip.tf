@@ -1,3 +1,4 @@
+#Creation of IPs
 resource "azurerm_public_ip" "winvm-ip" {
   count               = 2
   name                = "winip${count.index}"
