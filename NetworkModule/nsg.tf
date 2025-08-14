@@ -1,3 +1,4 @@
+#Creating NSG with inbound and outbound rules
 resource "azurerm_network_security_group" "nsg1" {
     name                = "nsg1"
     location            = var.location
