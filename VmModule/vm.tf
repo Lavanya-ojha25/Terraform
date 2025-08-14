@@ -1,3 +1,4 @@
+#VM TASKS
 resource "azurerm_windows_virtual_machine" "vmwin" {
   count               = 2
   name                = "${var.windowvm}${count.index}"
