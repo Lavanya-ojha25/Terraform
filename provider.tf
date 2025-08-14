@@ -1,3 +1,4 @@
+#Configured Backend for Subscription where resources are to be deployed
 terraform {
   required_providers {
     azurerm = {
